@@ -1,0 +1,1 @@
+Diagnostic pilot: all three CPU synthetic off/on pairs passed exact comparisons of histories, selected model parameters, memberships, distances, and per-example test probabilities. Plotting exports and notebook syntax checked. Real-data CUDA verification is performed by pilot.py on the target machine.

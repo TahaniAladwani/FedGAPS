@@ -1,0 +1,21 @@
+{
+  "dataset": "synthetic",
+  "partition_identical": true,
+  "checks": [
+    {
+      "method": "ours",
+      "exact_match": true,
+      "output_on": "/private/tmp/fedgaps-diagnostics-check/on/synthetic/alpha_0.1/seed_42/ours-cd56167a620e"
+    },
+    {
+      "method": "ours_no_graph",
+      "exact_match": true,
+      "output_on": "/private/tmp/fedgaps-diagnostics-check/on/synthetic/alpha_0.1/seed_42/ours_no_graph-9b1bdcdfc26b"
+    },
+    {
+      "method": "ours_no_reliability",
+      "exact_match": true,
+      "output_on": "/private/tmp/fedgaps-diagnostics-check/on/synthetic/alpha_0.1/seed_42/ours_no_reliability-e3e8f228d2a3"
+    }
+  ]
+}
