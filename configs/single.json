@@ -1,0 +1,18 @@
+{
+  "dataset": "office10",
+  "method": "ours",
+  "alpha": 0.1,
+  "seed": 42,
+  "data_root": "data",
+  "output_root": "outputs/single_patience5",
+  "device": "cuda",
+  "image_size": 224,
+  "batch_size": 32,
+  "prototype_mix": 0.1,
+  "rounds": 50,
+  "warmup_rounds": 20,
+  "early_stop_patience": 5,
+  "early_stop_min_rounds": 1,
+  "monitor_window": 1,
+  "min_delta": 0.0
+}

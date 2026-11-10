@@ -1,0 +1,51 @@
+{
+  "datasets": [
+    "domainnet10"
+  ],
+  "seeds": [
+    42,
+    123,
+    2024
+  ],
+  "alphas": [
+    0.1,
+    0.5
+  ],
+  "methods": [
+    "fedavg",
+    "fedbn",
+    "fedproto",
+    "fedplvm",
+    "feddap",
+    "fedrc",
+    "fpl",
+    "fedsoft",
+    "ours"
+  ],
+  "common": {
+    "data_root": "data",
+    "output_root": "outputs/domainnet10_patience5",
+    "device": "cuda",
+    "rounds": 50,
+    "warmup_rounds": 20,
+    "local_epochs": 1,
+    "clients_per_domain": 4,
+    "batch_size": 32,
+    "workers": 0,
+    "image_size": 224,
+    "pretrained": true,
+    "amp": false,
+    "early_stop_patience": 5,
+    "early_stop_min_rounds": 1,
+    "monitor_window": 1,
+    "min_delta": 0.0
+  },
+  "pending_baselines": [
+    {
+      "id": "cscwd2024_client_prototypes",
+      "title": "Clustered Federated Learning Based on Client\u2019s Prototypes",
+      "doi": "10.1109/CSCWD61410.2024.10580076",
+      "status": "awaiting_full_paper_or_verified_author_code"
+    }
+  ]
+}
